@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+////<div className="list">{data.map(item => (<div className="card"><div className="innercard"><h4>{item.company}</h4><img style={{width: "25px"}} src={item.company_logo}></img></div></div>))}</div>
 ReactDOM.render(
   <React.StrictMode>
     <App />
